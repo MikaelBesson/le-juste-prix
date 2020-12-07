@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+
+}
+input{
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#result {
+    font-size: 20px;
+    text-align: center;
+}
+#choixJoueur {
+    margin-left: 1rem;
+    font-size: 20px;
+}
