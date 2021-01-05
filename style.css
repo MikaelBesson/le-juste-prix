@@ -11,32 +11,39 @@ html {
 body {
     width: 100%;
 }
+#div1 {
+    background-color: #efe412;
+    width: 60%;
+    height: 50rem;
+    margin: auto;
+}
 
 h1 {
     text-align: center;
+    margin: auto;
+    background-color: #d71313;
+    color: gold;
+
 
 }
 input{
-    font-size: 20px;
-    display: block;
-    margin: auto;
-    margin-top: 3rem;
+    margin-top: 20px;
+    display: inline-block;
     text-align: center;
-
 }
 
 label {
-    font-size: 20px;
-    display: block;
     text-align: center;
-    margin-top: 2rem;
+    display: inline-block;
+
 }
 
 #result {
-    font-size: 20px;
-    text-align: center;
+    font-size: 10px;
 }
 #choixJoueur {
-    margin-left: 1rem;
-    font-size: 20px;
+
+}
+button {
+
 }

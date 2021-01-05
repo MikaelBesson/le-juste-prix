@@ -18,26 +18,28 @@ button.addEventListener("click", function (){
     choix = parseInt(choix.value);
     resultat.innerHTML += "vous avez deja essayer " + choix + "<br>";
 
-    if(choix < nb) { // c'est plus
-        result.innerHTML = "c'est plus";
-        result.style.color = "green"
-        document.getElementById('result').value ;
-    }
-    else if(choix > nb) { // c'est moins
-        result.innerHTML ="c'est moins";
-        result.style.color = "red";
-        document.getElementById('result');
-    }
-    else if(choix === nb) {  //gagné
-        result.innerHTML ="Bravo tu as Gagner";
-    }
+
 
     if(nb_coup > 10){
         result.innerHTML = "trop de tentative tu as perdu !!";
     }
 
-    console.log(choix.value);
+        else if (choix < nb) { // c'est plus
+            result.innerHTML = "c'est plus";
+            result.style.color = "green"
+            document.getElementById('result').value;
+        }
+        else if (choix > nb) { // c'est moins
+            result.innerHTML = "c'est moins";
+            result.style.color = "red";
+            document.getElementById('result');
+        }
+        else if (choix === nb) {  //gagné
+            result.innerHTML = "Bravo tu as Gagner";
+        }
+
 })
+
 
 
 
